@@ -1,0 +1,179 @@
+body {
+  background-image: url("./img/starwars.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+form {
+  border: 3px solid rgba(51, 50, 50, 0.411);
+  background-color: rgba(51, 50, 50, 0.212);
+  height: 70%;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+form #characterInfo {
+  background-color: rgba(19, 18, 18, 0.212);
+  border-radius: 5px;
+  border: 3px solid #ff8800;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px 38px;
+  text-decoration: none;
+  text-shadow: 0px 2px 0px black;
+}
+
+p {
+  font-weight: 800;
+  color: #ff7300;
+  font-size: 30px;
+  text-shadow: 3px 5px 5px black;
+}
+
+h2 {
+  font-weight: 800;
+  color: #ff7300;
+  font-size: 20px;
+  text-shadow: 3px 5px 5px black;
+}
+
+select {
+  border-radius: 5px;
+  background-color: black;
+  color: #ff7300;
+  font-family: monospace;
+  font-weight: bolder;
+}
+
+.wrapCharacters {
+  height: 600px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.wrapCharacters .characterCard1, .wrapCharacters .characterCard2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 10px solid rgba(255, 47, 47, 0.37);
+  height: 100%;
+  width: 30%;
+  background-color: rgba(255, 47, 47, 0.37);
+  border-radius: 20px;
+}
+
+.wrapCharacters .characterCard1 img, .wrapCharacters .characterCard2 img {
+  background-size: cover;
+}
+
+.wrapCharacters .characterCard2 {
+  border: 10px solid rgba(0, 174, 255, 0.493);
+  background-color: rgba(0, 174, 255, 0.493);
+}
+
+.wrapCharacters .versus {
+  background-image: url(./img/VS.png);
+  background-size: cover;
+  background-position: center;
+  height: 80%;
+  width: 17%;
+}
+
+.spyWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.spyWrapper .spy1, .spyWrapper .spy2 {
+  background-color: rgba(0, 0, 0, 0.349);
+  border: 5px solid rgba(255, 47, 47, 0.37);
+  border-radius: 20px;
+  padding: 15px;
+  width: 20%;
+}
+
+.spyWrapper .spy1 #compareBTN, .spyWrapper .spy2 #compareBTN {
+  background-color: rgba(89, 255, 47, 0.452);
+  border-radius: 5px;
+  border: 3px solid rgba(56, 232, 255, 0.486);
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px 38px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+
+.spyWrapper .spy1 p, .spyWrapper .spy2 p {
+  font-size: 20px;
+  color: greenyellow;
+}
+
+.spyWrapper .spy2 {
+  border: 5px solid rgba(0, 174, 255, 0.493);
+}
+
+.spyWrapper .spy2 h2 {
+  font-weight: 800;
+  color: #ff7300;
+  font-size: 30px;
+  text-shadow: 3px 5px 5px black;
+}
+
+.spyWrapper .restart {
+  background-color: rgba(89, 255, 47, 0.452);
+  border-radius: 5px;
+  border: 3px solid rgba(56, 232, 255, 0.486);
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px 38px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+/*# sourceMappingURL=styles.css.map */

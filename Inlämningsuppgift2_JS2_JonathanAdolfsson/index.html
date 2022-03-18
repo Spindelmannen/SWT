@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Characters</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <form>
+        <h1>STAR WARS TRIVIA</h1>
+
+        <h2>Choose Character #1</h2>
+            <select name="dropdownOne" id="dropdown1" class="characterList">
+                <option hidden>Choose Characters</option> 
+                <option value="1">Luke Skywalker</option>
+                <option value="2">C-3PO</option>
+                <option value="3">R2-D2</option>
+                <option value="4">Darth Vader</option>
+                <option value="5">Leia Organa</option>
+                <option value="6">Owen Lars</option>
+                <option value="7">Beru Whitesun lars</option>
+                <option value="8">R5-D4</option>
+                <option value="9">Biggs Darklighter</option>
+                <option value="10">Obi-Wan Kenobi</option>
+            
+            
+            </select>
+
+
+        
+            <h2>Choose Character #2</h2>
+                <select name="dropdownTwo" id="dropdown2" class="characterList">
+                    <option hidden>Choose Characters</option> 
+                    <option value="1">Luke Skywalker</option>
+                    <option value="2">C-3PO</option>
+                    <option value="3">R2-D2</option>
+                    <option value="4">Darth Vader</option>
+                    <option value="5">Leia Organa</option>
+                    <option value="6">Owen Lars</option>
+                    <option value="7">Beru Whitesun lars</option>
+                    <option value="8">R5-D4</option>
+                    <option value="9">Biggs Darklighter</option>
+                    <option value="10">Obi-Wan Kenobi</option>
+                 
+                
+                </select>
+
+            <button id="characterInfo">GO!</button>
+        </form>
+    </div>
+    <div class="wrapCharacters">
+        <div class="characterCard1"></div>
+        <div class="versus"></div>
+        <div class="characterCard2"></div>
+    </div>
+    <div class="spyWrapper">
+        <div class="spy1" hidden>
+            <h2>Scan & compare Intel of Characters:</h2>
+            <button id="compareBTN">Compare Characters</button>
+            <!-- <button id="opponentMass1" >Mass</button>
+            <button id="opponentHeight1" >Height</button>
+            <button id="opponentHaircolor1" >Hair Color</button>
+            <button id="opponentGender1" >Gender</button> -->
+        </div>
+        <button class="restart" hidden>Go Again!</button>
+        <div class="spy2" hidden>
+            <h2>Scanned Intel:</h2>
+            <p class="heightPara"></p>
+            <p class="massPara"></p>
+            <!-- <button id="opponentMass2">Mass</button>
+            <button id="opponentHeight2">Height</button>
+            <button id="opponentHaircolor2">Hair Color</button>
+            <button id="opponentGender2">Gender</button> -->
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
